@@ -25,6 +25,10 @@ ul, h1, p {
     color: #6d747d;
 }
 
+.bg-grey {
+    background-color: #6d747d;
+}
+
 .bg-dark {
     background-color: #1f2937;
 }
@@ -79,7 +83,6 @@ header ul {
 }
 
 .landing .img {
-    background-color: #6d747d;
     display: flex;
     align-items: center;
     justify-content: center;
