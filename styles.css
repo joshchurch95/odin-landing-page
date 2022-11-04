@@ -17,6 +17,14 @@ ul, h1, p {
     color: #e5e7eb;
 }
 
+.text-dark {
+    color: #1f2937;
+}
+
+.text-grey {
+    color: #6d747d;
+}
+
 .bg-dark {
     background-color: #1f2937;
 }
@@ -75,4 +83,31 @@ header ul {
     display: flex;
     align-items: center;
     justify-content: center;
+}
+
+.info .container {
+    flex-direction: column;
+    align-items: center;
+}
+
+.info .heading {
+    font-size: 36px;
+    font-weight: 900px;
+}
+
+.info .media-container {
+    display: flex;
+    gap: 32px;
+}
+
+.info .media {
+    width: 150px;
+    text-align: center;
+}
+
+.info .img {
+    border-radius: 16px;
+    border: 4px solid #3882f6;
+    height: 150px;
+    margin-bottom: 8px;
 }
