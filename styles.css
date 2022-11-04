@@ -4,7 +4,7 @@ body {
     font-family: Roboto, sans-serif;
 }
 
-ul, h1, p {
+ul, h1, h2, h3, p {
     margin: 0;
     padding: 0;
 }
@@ -140,4 +140,26 @@ header ul {
     font-weight: bold;
     font-size: 18px;
     margin-right: 16px;
+}
+
+.action .container {
+    margin: 100px auto;
+    padding: 36px 100px;
+    box-sizing: border-box;
+    justify-content: space-between;
+    align-items: center;
+    border-radius: 8px;
+}
+
+.action button {
+    background-color: transparent;
+    border: 2px solid;
+    border-radius: 8px;
+    padding: 8px 28px;
+    color: inherit;
+    font-weight: bold;
+}
+
+.action p {
+    margin-top: 4px;
 }
