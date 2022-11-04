@@ -108,6 +108,7 @@ header ul {
 .info .media-container {
     display: flex;
     gap: 48px;
+    margin-top: 28px;
 }
 
 .info .media {
