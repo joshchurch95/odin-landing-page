@@ -163,3 +163,9 @@ header ul {
 .action p {
     margin-top: 4px;
 }
+
+footer .container {
+    justify-content: center;
+    align-items: center;
+    padding: 36px 0;
+}
