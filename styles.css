@@ -4,7 +4,7 @@ body {
     font-family: Roboto, sans-serif;
 }
 
-ul {
+ul, h1, p {
     margin: 0;
     padding: 0;
 }
@@ -19,6 +19,10 @@ ul {
 
 .bg-dark {
     background-color: #1f2937;
+}
+
+.bg-action {
+    background-color: #3882f6;
 }
 
 .container {
@@ -42,4 +46,37 @@ header ul {
     display: flex;
     list-style: none;
     gap: 16px;
+}
+
+.landing .container {
+    gap: 48px;
+    padding: 48px 16px;
+}
+
+.landing .text,
+.landing .img {
+    flex: 1;
+}
+
+.landing .hero {
+    font-size: 48px;
+    font-weight: 900;
+}
+
+.landing p {
+    font-size: 18px; 
+}
+
+.landing button {
+    border: none;
+    border-radius: 8px;
+    padding: 8px 28px;
+    margin-top: 16px;
+}
+
+.landing .img {
+    background-color: #6d747d;
+    display: flex;
+    align-items: center;
+    justify-content: center;
 }
